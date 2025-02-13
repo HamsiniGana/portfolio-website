@@ -1,4 +1,7 @@
 import worldImage from './images/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.png'
+// import Navbar from './components/Navigation'
+import PassportCreate from './components/PassportCreation'
+import Passport from './components/Passport'
 function App() {
   return (
     <div className="App">
@@ -6,25 +9,19 @@ function App() {
         <title>My portfolio</title>
       </header>
 
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About me</li>
-          <li>Hobbies</li>
-        </ul>
-      </nav>
 
       <h4></h4>
 
       <section className="homepage">
-        <h1 className="HomepageElement heading">
-          Welcome to my world!
+        <h1 className="HomepageElement heading1">
+          Hello! I am Hamsini.
         </h1>
+        <h1 className="HomepageElement heading2"> Welcome to my Portfolio world!</h1>
         <img className="HomepageElement worldImage" src={worldImage} alt='world image'></img>
-
         <h3 className="HomepageElement passportText"> Click here to get a visual passport to tour my world!</h3>
-        
       </section>
+        <PassportCreate/>
+        <Passport />
 
       <footer>
       </footer>

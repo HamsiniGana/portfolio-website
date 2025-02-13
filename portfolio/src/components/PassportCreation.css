@@ -1,0 +1,75 @@
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+#passportImg {
+    padding-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+#heading {
+    display: flex;
+    direction: row;
+}
+.borderProperty {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2rem;
+    padding: 100px;
+    margin-bottom: 25px;
+}
+.name, .age {
+    display: flex;
+    flex-direction: column;
+}
+.inputVal {
+    width: 20vw;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5px;
+    border-radius: 1rem;
+    font-size: large;
+    font-family: fantasy;
+
+}
+.gender {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    background-image: linear-gradient(#93fb9d, #09c7fb);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+#submitBtn {
+    margin-left: 4rem;
+    margin-bottom: 35px;
+    height: 50px;
+    width: 10vw;
+    font-size: 20px;
+    font-family: fantasy;
+    background-image: linear-gradient(#93fb9d, #09c7fb);
+    border: none;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+button:hover {
+    transform: scale(1.2);
+    transition:ease-in;
+    transition-duration: 0.3s;
+}
+.genderVal {
+    font-size: 23px;
+}

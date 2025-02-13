@@ -1,54 +1,13 @@
 .App {
   margin: 0;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  text-align: center;
-  height: 70px;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-}
-
-ul {
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 100%;
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: 50px;
-}
-
-li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(#93fb9d, #09c7fb);
-  background-clip:text;
-  -webkit-text-fill-color: transparent;
-  border-radius: 10px;
-  height: 50px;
-  width: 17%;
-}
-li:hover {
-  transform: scale(1.2);
-  transition:ease-in;
-  transition-duration: 0.3s;
+  font-family: fantasy;
 }
 span {
   background-color: white;
 }
 .homepage {
-  color: white;
+  background-color: black;
+
   margin-top: 0;
   padding-top:0;
   background-color:rgb(0, 0, 0);
@@ -57,8 +16,12 @@ span {
   justify-content: center;
   align-items: center;
 }
-.heading {
-  font-size: 65px;
+
+.heading1, .heading2 {
+  font-size: 45px;
+  background-image: linear-gradient(#93fb9d, #09c7fb);
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes rotateWorld {
@@ -75,13 +38,15 @@ span {
   animation-name: rotateWorld;
   animation-duration: 20s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  animation-timing-function: linear;
 }
 
 .passportText {
   font-size: 20px;
+  color: white;
 }
 .passportText:hover {
-  color: #91ef4d;
-
+  background-image: linear-gradient(#93fb9d, #09c7fb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
