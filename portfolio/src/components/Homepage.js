@@ -1,5 +1,5 @@
 import worldImage from '../images/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.png'
-
+import './Homepage.css'
 function Homepage() {
     return (
       <div >
