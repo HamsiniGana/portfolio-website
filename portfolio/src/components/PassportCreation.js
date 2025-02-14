@@ -69,7 +69,7 @@ function PassportCreation() {
                     <h1></h1>
                 </div>
             </div>
-            <button className="passport submitBtn" onClick={()=>navigate('/passport')}> Submit </button>
+            <button className="passport submitBtn" onClick={()=>navigate('/passport', {state:{name, age, gender}})}> Submit </button>
         </div>
     </div>
    );

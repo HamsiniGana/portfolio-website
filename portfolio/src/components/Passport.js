@@ -1,10 +1,10 @@
 import './Passport.css'
-import name from './PassportCreation'
-import gender from './PassportCreation'
-import age from './PassportCreation'
 import profile from '../images/pfp.jpg'
 import visa from '../images/approvedStamp.jpg'
+import { useLocation } from "react-router";
 function Passport () {
+    const location = useLocation();
+    const {name, age, gender} = location.state;
     return(
         <div className="passportContainer">
             <h1 id="passportHeading">Passport</h1>
