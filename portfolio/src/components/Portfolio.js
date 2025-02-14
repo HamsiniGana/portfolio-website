@@ -1,46 +1,57 @@
 // import Navbar from '../components/Navigation'
 import './Portfolio.css'
 import { useState } from 'react';
+import { useRef } from 'react';
+import pic from '../images/profilePic.gif'
+import crochet from '../images/crochet.gif'
+import laugh from '../images/laugh.gif'
 function Portfolio() {
     const [linkState, setLinkState] = useState('');
+    const jokesRef = useRef(null);
+    const factsRef = useRef(null);
+    const aboutRef = useRef(null);
     return (
         <div className='rootDiv'>
-           <div className="Navigation">
+           <div className="navigation">
                 <nav>
                     <ul className='navUl'>
-                    <li className='links linkOne' value="panel1" onClick={e=>setLinkState(e.target.value)}>About me</li>
-                    <li className='links linkTwo' value="panel2" onClick={e=>setLinkState(e.target.value)}>Fun facts</li>
-                    <li className='links linkThree' value="panel3" onClick={e=>setLinkState(e.target.value)}>Courses</li>
-                    <li className='links linkFour' value="panel4" onClick={e=>setLinkState(e.target.value)}>Jokes</li>
+                    <li className='links linkOne' onClick={() => aboutRef.current.scrollIntoView({behaviour: 'smooth'})}>About me</li>
+                    <li className='links linkTwo' onClick={() => factsRef.current.scrollIntoView({behaviour: 'smooth'})}>Fun facts</li>
+                    <li className='links linkFour'  onClick={() => jokesRef.current.scrollIntoView({behaviour: 'smooth'})}>Jokes</li>
                     </ul>
                 </nav>
             </div>
 
             <div className ="sections">
-                <div className="columns col1">
+                <div ref={aboutRef}className='columns col1'>
                     <div className="section section1" >
                         <h1 className='sectionHeadings secH1'>About me</h1>
                         <p className="descriptions d1">Hey there! I am Hamsini. A second year student studying software engineering. I have been passionate about frontend ever since I participated in my first hackathon a few months ago and managed to learn the basics of react to develop simple websites that share information about me, like this one!</p>
                     </div>
 
-                    <div className="section section2">
-                        <h1 className='sectionHeadings secH2'>Fun facts</h1>
-                        <p className="descriptions d2"> Here are some fun facts about me :)</p>
-                        <ul className='factsUl'>
-                            <li className='facts f1'>Crochet addict</li>
-                            <li className='facts f2'>Expert baker</li>
-                            <li className='facts f3'>Lepidopterophobic (For those of you who don't know, I'm afraid of butterflies T-T )</li>
-                            <li className='facts f4'>Avid painter</li>
-                        </ul>
+                    <div className="imgs img1" >
+                        <img id="profileGif" src={pic}/>
                     </div>
                 </div>
 
-                <div className="columns col2">
-                    <div className="section section3">
-                        <h1 className='sectionHeadings secH3'>Comp Courses</h1>
+                    <div ref={factsRef} className='columns col2'>
+                        <div className="imgs img2" >
+                            <img id="crochetGif" src={crochet}/>
+                        </div>
+                        <div className="section section2">
+                            <h1 className='sectionHeadings secH2'>Fun facts</h1>
+                            <p className="descriptions d2"> Here are some fun facts about me :)</p>
+                            <ul className='factsUl'>
+                                <li className='facts f1'>Crochet addict</li>
+                                <li className='facts f2'>Expert baker</li>
+                                <li className='facts f3'>Lepidopterophobic (For those of you who don't know, I'm afraid of butterflies T-T )</li>
+                                <li className='facts f4'>Avid painter</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div className="section section4">
+                    <div className='columns col3' ref={jokesRef}>
+                    <div className="section section3">
                         <h1 className='sectionHeadings secH4'>Jokes</h1>
                         <p className="descriptions d4"> Here are some of my favourite dad jokes:</p>
                         <ul className='jokesUl'>
@@ -50,7 +61,11 @@ function Portfolio() {
                             <li className='jokes j4'>What do you call the security guards for Samsung? Guardians of the galaxy.</li>
                         </ul>
                     </div>
-                </div>
+
+                    <div className="imgs img3" >
+                            <img id="laughGif" src={laugh}/>
+                    </div>
+                    </div>
             </div>
         </div>
 

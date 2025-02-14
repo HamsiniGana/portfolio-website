@@ -1,8 +1,8 @@
-/* .App {
-    margin: 0;
-    font-family: fantasy;
-    background-color: black;
-} */
+html, body {
+  margin:0;
+  padding:0;
+  height: 100vh;
+}
 .containerElement {
     background-color: black;
     height: 100vh;
