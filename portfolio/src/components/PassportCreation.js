@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState} from "react";
+import { useNavigate } from "react-router";
 import './PassportCreation.css'
 function PassportCreation() {
    const [name, setName] = useState('');
    const [age, setAge] = useState('');
    const [gender, setGender] = useState('');
+   const navigate= useNavigate();
    return(
     <div className="containerForm">
         <h1 className="heading">Passport application</h1>
@@ -67,7 +69,7 @@ function PassportCreation() {
                     <h1></h1>
                 </div>
             </div>
-            <button className="passport submitBtn"> Submit </button>
+            <button className="passport submitBtn" onClick={()=>navigate('/passport')}> Submit </button>
         </div>
     </div>
    );

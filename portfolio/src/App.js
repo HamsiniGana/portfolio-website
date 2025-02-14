@@ -20,6 +20,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Homepage/>}/>
             <Route path='/passportApplication' element={<PassportCreation/>}/>
+            <Route path='/passport' element={<Passport/>}/>
         </Routes>
         </BrowserRouter>
       <footer>
