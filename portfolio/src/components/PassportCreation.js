@@ -5,17 +5,15 @@ function PassportCreation() {
    const [age, setAge] = useState('');
    const [gender, setGender] = useState('');
    return(
-    <div className="container">
-        {/* <div id="heading"> */}
-            {/* <img id = "passportImg" src={passportClip}/> */}
-            <h1>Passport application</h1>
-        {/* </div> */}
+    <div className="containerForm">
+        <h1 className="heading">Passport application</h1>
 
         <div className="borderProperty">
             <div className = "passport name">
-                    <label for="nameInput">Name:</label>
+                    <label for="nameInput">*Name:</label>
                     <input className="inputVal nameInput" type='text'
                     value={name}
+                    required
                     onChange={e => setName(e.target.value)}
                     />
             </div>
@@ -25,9 +23,10 @@ function PassportCreation() {
             </div>
 
             <div className="passport age">
-                <label for="ageInput">Age:</label>
+                <label for="ageInput">*Age:</label>
                 <input className="inputVal ageInput" type='number'
                 value={age}
+                required
                 onChange={e =>setAge(e.target.value)}/>
             </div>
 
@@ -67,9 +66,8 @@ function PassportCreation() {
                 <div className= "lineSpace">
                     <h1></h1>
                 </div>
-
-                <button id="submitBtn"> Submit </button>
             </div>
+            <button className="passport submitBtn"> Submit </button>
         </div>
     </div>
    );

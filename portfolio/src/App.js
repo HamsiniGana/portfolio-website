@@ -1,7 +1,14 @@
 // import Navbar from './components/Navigation'
-import PassportCreate from './components/PassportCreation'
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import Passport from './components/Passport'
+import PassportCreation from './components/PassportCreation'
 import Homepage from './components/Homepage'
+
 function App() {
   return (
     <div className="App">
@@ -9,9 +16,12 @@ function App() {
         <title>My portfolio</title>
       </header>
 
-      <h4></h4>
-
-      <Homepage />
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Homepage/>}/>
+            <Route path='/passportApplication' element={<PassportCreation/>}/>
+        </Routes>
+        </BrowserRouter>
       <footer>
       </footer>
     </div>
