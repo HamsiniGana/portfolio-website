@@ -1,5 +1,3 @@
-// import Navbar from './components/Navigation'
-
 import {
   BrowserRouter,
   Routes,
@@ -8,6 +6,7 @@ import {
 import Passport from './components/Passport'
 import PassportCreation from './components/PassportCreation'
 import Homepage from './components/Homepage'
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -21,6 +20,7 @@ function App() {
             <Route path='/' element={<Homepage/>}/>
             <Route path='/passportApplication' element={<PassportCreation/>}/>
             <Route path='/passport' element={<Passport/>}/>
+            <Route path='/portfolio' element={<Portfolio/>}/>
         </Routes>
         </BrowserRouter>
       <footer>

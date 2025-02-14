@@ -41,7 +41,7 @@ function PassportCreation() {
                     <input className = "radioOption male" type='radio'
                     value="male"
                     checked = {gender === "male"}
-                    onChange={e =>setGender(e.target.value)}/>Male
+                    onChange={e =>setGender(e.target.value)}/> Male
                 </div>
 
                 <div className="genderVal f">

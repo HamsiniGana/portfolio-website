@@ -1,0 +1,103 @@
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    height: 70px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  }
+
+  .navUl {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 50px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 17%;
+    font-family: fantasy;
+
+  }
+
+  .links:hover {
+    text-decoration: underline;
+  }
+
+
+.rootDiv {
+    background-color: black;
+    margin:0;
+}
+.sections {
+    display:flex;
+    flex-direction: column;
+}
+
+.col1, .col2 {
+    display: flex;
+    height: 50vh;
+}
+.section1 {
+    background-color: #a6cee3;
+    color: black;
+    width: 50vw;
+}
+.section2 {
+    background-color: #1f7884;
+    color: white;
+    width: 50vw;
+}
+.section3 {
+    background-color: #b2dfba;
+    color: black;
+    width: 50vw;
+}
+.section4 {
+    background-color: #33a02c;
+    color: white;
+    width: 50vw;
+}
+.sections:hover .section {
+    filter: blur(10px);
+}
+.sections .section:hover {
+    border-radius: 2rem;
+    filter: blur(0);
+    transform: scale(1.02);
+    transition: ease-in;
+    transition-duration: 0.1s;
+}
+.section {
+    font-family: fantasy;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facts, .jokes {
+    font-size: medium;
+}
+.sectionHeadings {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.d1, .d2, .d4 {
+    font-size: 25px;
+}

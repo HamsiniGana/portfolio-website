@@ -1,5 +1,4 @@
-
- nav {
+/* nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,20 +28,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#93fb9d, #09c7fb);
-    background-clip:text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     border-radius: 10px;
     height: 50px;
     width: 17%;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
+    font-family: fantasy;
+
   }
 
   li:hover {
-    transform: scale(1.1);
-    transition:ease-in;
-    transition-duration: 0.2s;
-  }
+    text-decoration: underline;
+  } */
