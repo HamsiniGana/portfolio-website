@@ -84,6 +84,12 @@ button:hover {
 .heading {
     font-size: 42px;
 }
+
+.submitBtn:disabled {
+    background-image: linear-gradient(grey, grey);
+    color: white;
+    cursor: not-allowed;
+}
 @media screen and (max-width:3219px){
     .containerForm {
         background-color: black;
