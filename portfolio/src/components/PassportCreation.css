@@ -9,8 +9,8 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    font-size: 30px;
+    justify-content: center;
+    /* font-size: 40px; */
     font-family: fantasy;
     height: 100%;
     width: 100vw;
@@ -29,8 +29,8 @@ html, body {
     flex-direction: column;
 }
 .inputVal {
-    width: 20vw;
-    height: 6vh;
+    width: 410px;
+    height: 60px;
     color: white;
     background-color: black;
     border-style: solid;
@@ -49,10 +49,11 @@ html, body {
     flex-direction: column;
     justify-content: center;
 }
-label{
+label {
     background-image: linear-gradient(#93fb9d, #09c7fb);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -63,9 +64,9 @@ label{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
-    height: 90px;
-    width: 160px;
-    font-size: 28px;
+    height: 65px;
+    width: 140px;
+    font-size: 22px;
     font-family: fantasy;
     background-image: linear-gradient(#93fb9d, #09c7fb);
     border: none;
@@ -74,15 +75,15 @@ label{
     padding-top: 2px;
 }
 button:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition:ease-in;
     transition-duration: 0.3s;
 }
 .genderVal {
-    font-size: 23px;
+    font-size: 20px;
 }
 .heading {
-    font-size: 90px;
+    font-size: 42px;
 }
 @media screen and (max-width:3219px){
     .containerForm {
@@ -91,15 +92,11 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 50px;
         font-family: fantasy;
         height: 100%;
         width: 100vw;
     }
 
-    .genderVal {
-        font-size: 35px;
-    }
 }
 @media screen and (max-width:2752px){
     .containerForm {
@@ -108,15 +105,12 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 50px;
+        /* font-size: 50px; */
         font-family: fantasy;
         height: 100%;
         width: 100vw;
     }
-
-    .genderVal {
-        font-size: 35px;
-    }
+}
 
 
     @media screen and (max-width:2078px){
@@ -126,14 +120,10 @@ button:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 50px;
+            /* font-size: 50px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 35px;
         }
 
         .borderProperty {
@@ -152,14 +142,10 @@ button:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 45px;
+            /* font-size: 45px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 35px;
         }
 
         .borderProperty {
@@ -170,10 +156,9 @@ button:hover {
             padding: 220px;
             margin-bottom: 20px;
         }
-    }
     .inputVal {
-        width: 500px;
-        height: 80px;
+        width: 410px;
+        height: 60px;
         color: white;
         background-color: black;
         border-style: solid;
@@ -183,6 +168,7 @@ button:hover {
         font-size: large;
         font-family: fantasy;
     }
+    }
 
     @media screen and (max-width:981px){
         .containerForm {
@@ -191,14 +177,10 @@ button:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 40px;
+            /* font-size: 40px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 35px;
         }
 
         .borderProperty {
@@ -209,10 +191,9 @@ button:hover {
             padding: 150px;
             margin-bottom: 20px;
         }
-    }
     .inputVal {
-        width: 500px;
-        height: 80px;
+        width: 410px;
+        height: 60px;
         color: white;
         background-color: black;
         border-style: solid;
@@ -222,10 +203,8 @@ button:hover {
         font-size: large;
         font-family: fantasy;
     }
-    .heading {
-        font-size: 80px;
-    }
 
+    }
     @media screen and (max-width:840px){
         .containerForm {
             background-color: black;
@@ -233,14 +212,10 @@ button:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 35px;
+            /* font-size: 35px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 27px;
         }
 
         .borderProperty {
@@ -251,10 +226,10 @@ button:hover {
             padding: 110px;
             margin-bottom: 20px;
         }
-    }
+    
     .inputVal {
-        width: 500px;
-        height: 80px;
+        width: 410px;
+        height: 60px;
         color: white;
         background-color: black;
         border-style: solid;
@@ -264,9 +239,8 @@ button:hover {
         font-size: large;
         font-family: fantasy;
     }
-    .heading {
-        font-size: 70px;
-    }
+
+}
     @media screen and (max-width:745px){
         .containerForm {
             background-color: black;
@@ -274,14 +248,10 @@ button:hover {
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 35px;
+            /* font-size: 35px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 27px;
         }
 
         .borderProperty {
@@ -301,9 +271,9 @@ button:hover {
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 35px;
-            height: 70px;
-            width: 140px;
-            font-size: 28px;
+            height: 60px;
+            width: 120px;
+            font-size: 20px;
             font-family: fantasy;
             background-image: linear-gradient(#93fb9d, #09c7fb);
             border: none;
@@ -311,37 +281,33 @@ button:hover {
             font-weight: bolder;
             padding-top: 2px;
         }
-    }
+
     .inputVal {
         width: 300px;
-        height: 80px;
+        height: 50px;
         color: white;
         background-color: black;
         border-style: solid;
         border-color: white;
         border-width: 1.5px;
         border-radius: 1rem;
-        font-size: large;
+        font-size: 21px;
         font-family: fantasy;
     }
-    .heading {
-        font-size: 55px;
+    label {
+        font-size: 25px;
     }
-
+    }
     @media screen and (max-width:570px){
         .containerForm {
             background-color: black;
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 28px;
+            /* font-size: 28px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
-        }
-
-        .genderVal {
-            font-size: 20px;
         }
 
         .borderProperty {
@@ -371,10 +337,10 @@ button:hover {
             font-weight: bolder;
             padding-top: 2px;
         }
-    }
+
     .inputVal {
-        width: 500px;
-        height: 80px;
+        width: 410px;
+        height: 60px;
         color: white;
         background-color: black;
         border-style: solid;
@@ -384,25 +350,20 @@ button:hover {
         font-size: large;
         font-family: fantasy;
     }
-    .heading {
-        font-size: 45px;
-    }
 
+    }
     @media screen and (max-width:557px){
         .containerForm {
             background-color: black;
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 25px;
+            /* font-size: 25px; */
             font-family: fantasy;
             height: 100%;
             width: 100vw;
         }
 
-        .genderVal {
-            font-size: 20px;
-        }
 
         .borderProperty {
             border-width: 2px;
@@ -414,10 +375,9 @@ button:hover {
             padding-bottom: 150px;
             margin-bottom: 20px;
         }
-    }
     .inputVal {
-        width: 350px;
-        height: 70px;
+        width: 410px;
+        height: 60px;
         color: white;
         background-color: black;
         border-style: solid;
@@ -427,9 +387,7 @@ button:hover {
         font-size: large;
         font-family: fantasy;
     }
-    .heading {
-        font-size: 35px;
-    }
+ 
     .submitBtn {
         display: flex;
         align-items: center;
