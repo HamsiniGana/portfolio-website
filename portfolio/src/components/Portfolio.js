@@ -26,7 +26,7 @@ function Portfolio() {
                 <div ref={aboutRef}className='columns col1'>
                     <div className="section section1" >
                         <h1 className='sectionHeadings secH1'>About me</h1>
-                        <p className="descriptions d1">Hey there! I am Hamsini. A second year student studying software engineering. I have been passionate about frontend ever since I participated in my first hackathon a few months ago and managed to learn the basics of react to develop simple websites that share information about me, like this one!</p>
+                        <p className="descriptions d1">Hey there! I am Hamsini, a second year student studying Software Engineering. I have been passionate about frontend development ever since I participated in my first hackathon a few months ago. So far, I have managed to learn the basics of react to develop simple websites that share information about myself - like this one!</p>
                     </div>
 
                     <div className="imgs img1" >

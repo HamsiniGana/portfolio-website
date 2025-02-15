@@ -6,6 +6,7 @@ function PassportCreation() {
    const [age, setAge] = useState('');
    const [gender, setGender] = useState('');
    const navigate= useNavigate();
+   const fieldsFilled = name.trim() != "" && age.trim() != "" && gender.trim() != "";
    return(
     <div className="containerForm">
         <h1 className="heading">Passport application</h1>
@@ -36,7 +37,7 @@ function PassportCreation() {
                 <h1></h1>
             </div>
             <div className="passport gender">
-                <label for="radio">Gender:</label>
+                <label for="radio">*Gender:</label>
                 <div className="genderVal m">
                     <input className = "radioOption male" type='radio'
                     value="male"
@@ -69,7 +70,7 @@ function PassportCreation() {
                     <h1></h1>
                 </div>
             </div>
-            <button className="passport submitBtn" onClick={()=>navigate('/passport', {state:{name, age, gender}})}> Submit </button>
+            <button disabled= {!fieldsFilled}className="passport submitBtn" onClick={()=>navigate('/passport', {state:{name, age, gender}})}> Submit </button>
         </div>
     </div>
    );
