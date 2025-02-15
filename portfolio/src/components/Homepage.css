@@ -2,12 +2,17 @@ html, body {
   margin:0;
   padding:0;
   height: 100vh;
+  background-color: black;
 }
 .containerElement {
     background-color: black;
     height: 100vh;
     width: 100vw;
     font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
   .homepage {
     margin-bottom: 0;
@@ -25,6 +30,9 @@ html, body {
     background-clip:text;
     -webkit-text-fill-color: transparent;
   }
+  #welcomeBanner {
+    width: 100vw;
+  }
 
   @keyframes rotateWorld {
     from {
@@ -36,7 +44,7 @@ html, body {
   }
 
   .worldImage {
-    width: 40%;
+    width: 60px;
     animation-name: rotateWorld;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -53,20 +61,16 @@ html, body {
     -webkit-text-fill-color: transparent;
   }
 
-@media screen and (max-width: 3219px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
+@media screen and (max-width: 3219px) {
     .heading1, .heading2 {
-        font-size: 120px;
+        font-size: 53px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip:text;
         -webkit-text-fill-color: transparent;
     }
 
       .worldImage {
-        width: 45%;
+        width: 390px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -74,7 +78,7 @@ html, body {
     }
 
       .passportText {
-        font-size: 70px;
+        font-size: 30px;
         color: white;
     }
     .passportText:hover {
@@ -82,6 +86,21 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      .containerElement {
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+        font-family: fantasy;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    #welcomeBanner {
+      width: 420px;
+      padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 1690px){
@@ -90,14 +109,14 @@ html, body {
         font-family: fantasy;
     } */
     .heading1, .heading2 {
-        font-size: 80px;
+        font-size: 50px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip:text;
         -webkit-text-fill-color: transparent;
     }
 
       .worldImage {
-        width: 60%;
+        width: 460px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -105,7 +124,7 @@ html, body {
     }
 
       .passportText {
-        font-size: 50px;
+        font-size: 30px;
         color: white;
     }
     .passportText:hover {
@@ -113,6 +132,52 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      .containerElement {
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+        font-family: fantasy;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    #welcomeBanner {
+      width: 420px;
+      padding-top:200px;
+    }
+}
+
+@media screen and (max-width: 1379px){
+  .heading1, .heading2 {
+      font-size: 50px;
+      background-image: linear-gradient(#93fb9d, #09c7fb);
+      background-clip:text;
+      -webkit-text-fill-color: transparent;
+  }
+
+    .worldImage {
+      width: 460px;
+      animation-name: rotateWorld;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+
+    .passportText {
+      font-size: 30px;
+      color: white;
+  }
+  .passportText:hover {
+      background-image: linear-gradient(#93fb9d, #09c7fb);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    #welcomeBanner {
+      width: 420px;
+      padding-top:200px;
+    }
 }
 
 @media screen and (max-width: 1176px){
@@ -121,14 +186,14 @@ html, body {
         font-family: fantasy;
     } */
     .heading1, .heading2 {
-        font-size: 60px;
+        font-size: 40px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip:text;
         -webkit-text-fill-color: transparent;
     }
 
       .worldImage {
-        width: 70%;
+        width: 360px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -136,7 +201,7 @@ html, body {
     }
 
       .passportText {
-        font-size: 35px;
+        font-size: 27px;
         color: white;
     }
     .passportText:hover {
@@ -144,22 +209,22 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      #welcomeBanner {
+        width: 420px;
+        padding-top: 50px;
+      }
 }
 
 @media screen and (max-width: 912px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
-        font-size: 50px;
+        font-size: 45px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip:text;
         -webkit-text-fill-color: transparent;
     }
 
       .worldImage {
-        width: 60%;
+        width: 360px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -175,13 +240,13 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      #welcomeBanner {
+        width: 420px;
+        padding-top: 50px;
+      }
 }
 
 @media screen and (max-width: 801px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
         font-size: 43px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
@@ -190,7 +255,7 @@ html, body {
     }
 
       .worldImage {
-        width: 60%;
+        width: 360px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -205,6 +270,10 @@ html, body {
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+      }
+      #welcomeBanner {
+        width: 430px;
+        padding-top: 50px;
       }
 }
 
@@ -221,7 +290,7 @@ html, body {
     }
 
       .worldImage {
-        width: 60%;
+        width: 330px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -237,13 +306,13 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      #welcomeBanner {
+        width: 420px;
+        padding-top: 0px;
+      }
 }
 
 @media screen and (max-width: 619px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
         font-size: 32px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
@@ -252,7 +321,7 @@ html, body {
     }
 
     .worldImage {
-        width: 90%;
+        width: 330px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -268,12 +337,12 @@ html, body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    #welcomeBanner {
+      width: 420px;
+      padding-top: 0px;
+    }
 }
 @media screen and (max-width: 562px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
         font-size: 30px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
@@ -282,7 +351,7 @@ html, body {
     }
 
       .worldImage {
-        width: 90%;
+        width: 320px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -308,22 +377,23 @@ html, body {
         justify-content: center;
         align-items: center;
       }
+      #welcomeBanner {
+        width: 460px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+      }
 }
 
 @media screen and (max-width: 501px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
-        font-size: 25px;
+        font-size: 27px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
         background-clip:text;
         -webkit-text-fill-color: transparent;
     }
 
       .worldImage {
-        width: 90%;
+        width: 300px;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -331,7 +401,7 @@ html, body {
     }
 
       .passportText {
-        font-size: 18px;
+        font-size: 17px;
         color: white;
     }
     .passportText:hover {
@@ -349,13 +419,14 @@ html, body {
         justify-content: center;
         align-items: center;
       }
+      #welcomeBanner {
+        width: 470px;
+        padding-top: 0px;
+        margin-bottom: 15px;
+      }
 }
 
 @media screen and (max-width: 431px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
     .heading1, .heading2 {
         font-size: 20px;
         background-image: linear-gradient(#93fb9d, #09c7fb);
@@ -364,7 +435,7 @@ html, body {
     }
 
       .worldImage {
-        width: 90%;
+        width: 30%;
         animation-name: rotateWorld;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -390,86 +461,9 @@ html, body {
         justify-content: center;
         align-items: center;
       }
-}
-
-@media screen and (max-width: 360px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
-    .heading1, .heading2 {
-        font-size: 15px;
-        background-image: linear-gradient(#93fb9d, #09c7fb);
-        background-clip:text;
-        -webkit-text-fill-color: transparent;
-    }
-
-      .worldImage {
-        width: 90%;
-        height: 90%;
-        animation-name: rotateWorld;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-
-      .passportText {
-        font-size: 10px;
-        color: white;
-    }
-    .passportText:hover {
-        background-image: linear-gradient(#93fb9d, #09c7fb);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      .homepage {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        background-color: black;
-        background-color:rgb(0, 0, 0);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-}
-@media screen and (max-width: 319px){
-    /* .App {
-        margin: 0;
-        font-family: fantasy;
-    } */
-    .heading1, .heading2 {
-        font-size: 15px;
-        background-image: linear-gradient(#93fb9d, #09c7fb);
-        background-clip:text;
-        -webkit-text-fill-color: transparent;
-    }
-
-      .worldImage {
-        width: 90%;
-        animation-name: rotateWorld;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-
-      .passportText {
-        font-size: 10px;
-        color: white;
-    }
-    .passportText:hover {
-        background-image: linear-gradient(#93fb9d, #09c7fb);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      .homepage {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        background-color: black;
-        background-color:rgb(0, 0, 0);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      #welcomeBanner {
+        width: 470px;
+        padding-top: 0px;
+        margin-bottom: 15px;
       }
 }
