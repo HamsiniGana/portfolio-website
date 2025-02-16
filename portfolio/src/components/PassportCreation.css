@@ -90,6 +90,7 @@ button:hover {
     color: white;
     cursor: not-allowed;
 }
+
 @media screen and (max-width:3219px){
     .containerForm {
         background-color: black;
