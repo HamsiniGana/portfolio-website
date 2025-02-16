@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.83e61c9f.css",
-    "main.js": "/portfolio_website/static/js/main.60dd3b31.js",
-    "static/js/151.5762deb9.chunk.js": "/portfolio_website/static/js/151.5762deb9.chunk.js",
-    "static/media/profilePic.gif": "/portfolio_website/static/media/profilePic.8d34feb83b5e7fcad151.gif",
-    "static/media/crochet.gif": "/portfolio_website/static/media/crochet.989da802d73ebfbf88a9.gif",
-    "static/media/laugh.gif": "/portfolio_website/static/media/laugh.1e6391d5d446fb9c1cd6.gif",
-    "static/media/paper.jpg": "/portfolio_website/static/media/paper.7d5b838345e576ce559f.jpg",
-    "static/media/approvedStamp.jpg": "/portfolio_website/static/media/approvedStamp.4e2bcb02d9aa6f80339e.jpg",
-    "static/media/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.png": "/portfolio_website/static/media/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.533bfc17e04dddb387f6.png",
-    "static/media/welcome.jpg": "/portfolio_website/static/media/welcome.a0065cf9de52e9196d99.jpg",
-    "index.html": "/portfolio_website/index.html",
-    "main.83e61c9f.css.map": "/portfolio_website/static/css/main.83e61c9f.css.map",
-    "main.60dd3b31.js.map": "/portfolio_website/static/js/main.60dd3b31.js.map",
-    "151.5762deb9.chunk.js.map": "/portfolio_website/static/js/151.5762deb9.chunk.js.map"
+    "main.css": "/portfolio-website/static/css/main.36f0b52b.css",
+    "main.js": "/portfolio-website/static/js/main.4263fc97.js",
+    "static/js/151.5762deb9.chunk.js": "/portfolio-website/static/js/151.5762deb9.chunk.js",
+    "static/media/profilePic.gif": "/portfolio-website/static/media/profilePic.8d34feb83b5e7fcad151.gif",
+    "static/media/crochet.gif": "/portfolio-website/static/media/crochet.989da802d73ebfbf88a9.gif",
+    "static/media/laugh.gif": "/portfolio-website/static/media/laugh.1e6391d5d446fb9c1cd6.gif",
+    "static/media/paper.jpg": "/portfolio-website/static/media/paper.7d5b838345e576ce559f.jpg",
+    "static/media/approvedStamp.jpg": "/portfolio-website/static/media/approvedStamp.4e2bcb02d9aa6f80339e.jpg",
+    "static/media/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.png": "/portfolio-website/static/media/World-globe-clip-art-clipart-2-wikiclipart-wikiclipart.533bfc17e04dddb387f6.png",
+    "static/media/welcome.jpg": "/portfolio-website/static/media/welcome.a0065cf9de52e9196d99.jpg",
+    "index.html": "/portfolio-website/index.html",
+    "main.36f0b52b.css.map": "/portfolio-website/static/css/main.36f0b52b.css.map",
+    "main.4263fc97.js.map": "/portfolio-website/static/js/main.4263fc97.js.map",
+    "151.5762deb9.chunk.js.map": "/portfolio-website/static/js/151.5762deb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e61c9f.css",
-    "static/js/main.60dd3b31.js"
+    "static/css/main.36f0b52b.css",
+    "static/js/main.4263fc97.js"
   ]
 }
