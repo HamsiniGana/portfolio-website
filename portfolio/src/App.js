@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -15,14 +15,14 @@ function App() {
         <title>My portfolio</title>
       </header>
 
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
             <Route path='/' element={<Homepage/>}/>
             <Route path='/passportApplication' element={<PassportCreation/>}/>
             <Route path='/passport' element={<Passport/>}/>
             <Route path='/portfolio' element={<Portfolio/>}/>
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
       <footer>
       </footer>
     </div>
